@@ -1,0 +1,13 @@
+.theme {
+    font-size: 3rem; /* Размер заголовка */
+    font-weight: bold; /* Жирный шрифт */
+    text-align: center; /* Выравнивание по центру */
+    margin: 0; /* Убираем отступы */
+ /* Отступы внутри */
+    color: transparent; /* Делаем текст прозрачным для градиента */
+    background: linear-gradient(90deg, var(--blue-primary), var(--purple-primary)); /* Градиент */
+    -webkit-background-clip: text; /* Поддержка обрезки фона под текст */
+    -webkit-text-fill-color: transparent; /* Поддержка прозрачного текста */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+    letter-spacing: 0.1rem; /* Расстояние между буквами */
+}

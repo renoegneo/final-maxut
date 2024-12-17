@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  /* Основные цвета */
+  --blue-primary: #4A90E2; /* Синий основной */
+  --purple-primary: #8E44AD; /* Фиолетовый основной */
+
+  /* Светлые оттенки для фона или акцентов */
+  --blue-light: #D6E9F8; /* Светло-синий */
+  --purple-light: #E9DAF3; /* Светло-фиолетовый */
+
+  /* Тёмные оттенки для текста или кнопок */
+  --blue-dark: #2C6DAE; /* Тёмно-синий */
+  --purple-dark: #5E3370; /* Тёмно-фиолетовый */
+
+  /* Дополнительные цвета для акцентов */
+  --blue-accent: #7FB6E7; /* Акцентный синий */
+  --purple-accent: #A573C3; /* Акцентный фиолетовый */
+
+  /* Нейтральные цвета */
+  --background: #e9e4f5; /* Основной цвет фона */
+  --background-dark: #dcd8e7;
+  --text-color: #333333;
+  --text-color2: #4a4a8f; /* Основной цвет текста */
+  --backgroundcard: #c9c9e6;
+  --almost-whitebg: #ece7f8;
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--background);
+}
+.main{
+  color: var(--text-color);
+}

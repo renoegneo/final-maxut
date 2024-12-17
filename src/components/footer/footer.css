@@ -1,0 +1,32 @@
+.upf a {
+    text-decoration: none;
+    margin: 20px;
+
+}
+/* .upf{
+    transition: transform 0.5s ease, background 0.5s ease;
+    
+}
+.upf:hover{
+    transform: scale(1.01);
+    background: linear-gradient(10deg, var(--text-color2), #844a8f, var(--text-color2)); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+} */
+
+footer{
+    background: linear-gradient(90deg, var(--blue-light), var(--purple-light), var(--blue-light)  ) ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 15px 25px var(--purple-accent) ;
+    font-size: 1.2rem;
+    font-weight: 100;
+    background: linear-gradient(10deg, var(--text-color), #844a8f, var(--text-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1%;
+
+}
